@@ -457,7 +457,7 @@
                        name="user-name" 
                        class="modal-input" 
                        placeholder="" id="user-name"/>
-                       <svg class="modal-icon" width="18" height="18">
+                       <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-person-black-18dp-1-1">
 
                         </use>
@@ -493,23 +493,25 @@
                     </div>
                 </div>
                     <div class="modal-field">
-                        <label for="user-text" class="modal-lable" 
+                        <label for="user-comment" class="modal-lable" 
                     >Comment</label>
                         <textarea class="modal-textarea" 
-                                  id="user-text" 
-                                  name="user-text"
+                                  id="user-comment" 
+                                  name="user-comment"
                                   placeholder="Text input"></textarea>
                     </div>
-                
+                <div class="modal-field-accept">
                 <div class="modal-field">
-                    <input type="checkbox" id="accept" class="accept-input visually-hidden" name="accept"/>
-                    <label for="accept" class="accept-text"><span class="accept-text-box">
-                        <svg class="accept-text-icon" width="16" height="16" >
+                    <input type="checkbox" id="user-privacy" class="accept-input visually-hidden" name="user-privacy"/>
+                    <label for="user-privacy" value="true" class="accept-text">
+                        <span class="accept-text-box">
+                        <svg class="accept-text-icon" width="10" height="8" >
                             <use href="./images/icons.svg#icon-fi-rr-angle-small-left-1">
 
                             </use>
                         </svg>
                     </span>I accept the terms and conditions of the<a href="">Privacy Policy</a></label>
+                </div>
                 </div>
                 <button type="submit" class="form-modal-btn">Send
                 </button>
