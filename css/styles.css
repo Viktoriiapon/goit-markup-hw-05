@@ -815,7 +815,7 @@ outline: transparent;
     
 
 .accept-text{
-    display: flex;
+    display: block;
     align-items: center;
     color: var(--LIGHT-SLATE, #8E8F99);
 font-size: 12px;
