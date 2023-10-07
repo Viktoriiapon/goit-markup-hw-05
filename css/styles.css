@@ -838,7 +838,7 @@ border: none;
 
 }
 .accept-text-box{
- display: inline-flex;
+ display: block;
    align-items: center;
     justify-content: center;
     width: 16px;
@@ -850,10 +850,7 @@ border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.accept-text-box span{
-    display: inline-flex;
 
-}
 .accept-text-icon{
 text-align: center;
 }
