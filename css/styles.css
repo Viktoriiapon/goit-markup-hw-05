@@ -778,7 +778,10 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-field-textarea{
-    margin-bottom: 26px;
+    margin-bottom: 16px;
+    }
+    .modal-field-accept{
+        margin-bottom: 24px;
     }
 .modal-textarea{
     width: 100%;
@@ -838,7 +841,7 @@ border: none;
 
 }
 .accept-text-box{
-    display: inline-flex;
+   display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid  rgba(46, 47, 66, 0.40) ;
