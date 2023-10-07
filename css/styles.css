@@ -837,7 +837,7 @@ fill:#F4F4FD;
 border: none; 
 
 }
-.accept-text-box{
+.accept-text-box span{
  display: inline-flex;
    align-items: center;
     justify-content: center;
