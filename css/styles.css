@@ -830,9 +830,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
 }
-.accept-input{
-   
-}
+
 .accept-input:checked +.accept-text >.accept-text-box{
 background-color: #404BBF;
 fill:#F4F4FD;
@@ -841,6 +839,8 @@ border: none;
 }
 .accept-text-box{
    display: inline-flex;
+   align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1px solid  rgba(46, 47, 66, 0.40) ;
@@ -848,8 +848,7 @@ border: none;
     fill: transparent;
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-items: center;
-    justify-content: center;
+    
 }
 .accept-text-icon{
 text-align: center;
